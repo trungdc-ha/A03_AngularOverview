@@ -1,0 +1,6 @@
+<p>student-list works!</p>
+<span style="color: red">{{myName}}</span>
+<!--Nếu tên là Hùng thì mới có image, tên còn lại thì ko có-->
+<img [src]="srcImage">
+<button (click)="updateName()">Update name</button>
+<input type="text" [(ngModel)]="myName">
